@@ -1,3 +1,3 @@
 # AudioRecorderSample
-Simple audio recorder sampler for Xamarin Forms
+Simple audio recorder sample for Xamarin Forms
 
