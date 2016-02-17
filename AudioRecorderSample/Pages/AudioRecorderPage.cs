@@ -48,7 +48,11 @@ namespace AudioRecorderSample.Pages
 
 		void AudioPlayerButton_Clicked (object sender, EventArgs e)
 		{
-			App.AudioPlayer.PlayAudio();
+			if (File.Exists (App.AudioRecorder.AudioFilePath + "/" + App.AudioRecorder.AudioFileName + ".wav"))
+				App.AudioPlayer.PlayAudio ();
+			else
+				DisplayAlert ("Whooops!", "Record something first", "Ok");
+
 		}
 	}
 }
