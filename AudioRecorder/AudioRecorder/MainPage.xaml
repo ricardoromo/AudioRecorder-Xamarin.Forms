@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AudioRecorder.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Button
+            x:Name="recordingButton"
+            BackgroundColor="DodgerBlue"
+            Clicked="StartRecording_Clicked"
+            FontAttributes="Bold"
+            Text="Start Recording"
+            TextColor="White" />
+        <Button
+            BackgroundColor="DodgerBlue"
+            Clicked="PlayAudio_Clicked"
+            FontAttributes="Bold"
+            Text="Play Audio"
+            TextColor="White" />
+    </StackLayout>
+</ContentPage>
