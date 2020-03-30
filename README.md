@@ -1,4 +1,4 @@
-# AudioRecorder Xamarin.Forms
+# Audio Recorder Xamarin.Forms
 
 Simple sample about how to record and play an audio file on Xamarin.Forms. 
 
