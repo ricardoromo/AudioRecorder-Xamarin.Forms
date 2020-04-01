@@ -14,6 +14,7 @@ namespace AudioRecorder.Droid.DependencyService
 
         public AudioRecorder_Android()
         {
+            Recorder = new MediaRecorder ();
         }
 
         public void StartRecord()
